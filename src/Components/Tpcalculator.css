@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.containerInterface{
+    background-color: rgb(121, 12, 12);
+    width: 300px;
+    height: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.champs{
+    display: flex;
+    width: 295px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: larger;
+}
+
+.Operateur{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+    margin-left: 95px;
+    position: relative;
+    margin-top:-50px; 
+}
+.paramettre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-top:85px ;
+}
+.Buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; /* Adjust the gap between buttons as needed */
+    padding-top: 20px;
+  }
+button{
+    height: 50px;
+    font-weight: bolder;
+}
+.footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Padding around the content inside the footer */
+    text-align: center; /* Align text in the center */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    width: 18%; /* Make the footer span the entire width of the viewport */
+    bottom: 0; /* Position the footer at the bottom of the viewport */
+  }
+  
